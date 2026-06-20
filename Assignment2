@@ -1,0 +1,77 @@
+1. What is UAT? Who will do the testing and what is the purpose?
+
+UAT (User Acceptance Testing) is the final stage of testing where the application is tested by end users or business stakeholders.
+
+End Users
+Clients/Customers
+Business Users
+Product Owners
+
+Purpose of UAT:
+
+To verify that the application meets business requirements.
+To ensure the system is ready for production.
+To get approval from the customer before release.
+2. What is the difference between Functional and Non-Functional Testing?
+
+Functional Testing:
+
+Checks whether the application functions correctly according to requirements.
+Focuses on features and business logic.
+
+Examples:
+
+Login Testing
+Registration Testing
+Payment Testing
+
+Non-Functional Testing:
+
+Checks the performance and quality of the application.
+Focuses on how well the system works.
+
+Examples:
+
+Performance Testing
+Security Testing
+Load Testing
+3. Load Testing will come under Functional or Non-Functional Testing? Why?
+
+Load Testing comes under Non-Functional Testing.
+
+Reason:
+Load testing checks how the application performs when many users access it at the same time. It measures response time, stability, and performance rather than checking business functionality.
+
+Example:
+Testing whether a website can handle 1,000 users simultaneously.
+
+4. What is Exploratory Testing and when do we do it?
+
+Exploratory Testing is a type of testing where the tester explores the application without predefined test cases.
+
+When is it performed?
+
+When requirements are unclear.
+When there is limited time to prepare test cases.
+After formal testing to find hidden defects.
+
+Purpose:
+To discover bugs that may not be found through regular test cases.
+
+5. What is Black Box Testing and how does it differ from White Box Testing?
+
+Black Box Testing:
+Black Box Testing is a testing method where the tester checks the application's functionality without knowing the internal code.
+
+Example:
+Testing a login page by entering valid and invalid credentials.
+
+White Box Testing:
+White Box Testing is a testing method where the tester has knowledge of the internal code and tests the program's logic and structure.
+
+Difference:
+Black Box Testing	                      White Box Testing
+No knowledge of code is required.	      Knowledge of code is required.
+Focuses on functionality.	              Focuses on code structure and logic.
+Mostly performed by testers.	          Mostly performed by developers.
+Tests inputs and outputs.	              Tests code paths and conditions
