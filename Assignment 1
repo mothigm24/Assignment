@@ -1,0 +1,37 @@
+| **QA Testing (Tester)**                                                                                              | **Developer Testing (Developer)**                                                            |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Focuses on verifying that the entire application works correctly and is free from defects.                           | Focuses on identifying and fixing code-level issues as early as possible during development. |
+| Testers evaluate the complete system through various functional and non-functional tests.                            | Developers test the code they write to ensure it behaves as expected.                        |
+| Usually performed after the software or feature has been developed.                                                  | Performed before the code is committed or merged into the shared repository.                 |
+| Involves collaboration among testers, developers, and business stakeholders.                                         | Often involves collaboration between developers through code reviews and peer testing.       |
+| Ensures the product meets business requirements and user expectations.                                               | Ensures new code is stable and does not introduce obvious defects.                           |
+| Includes different types of testing such as regression, usability, performance, security, and accessibility testing. | Primarily includes unit testing and basic integration testing.                               |
+| Validates the overall quality and reliability of the application.                                                    | Validates the correctness and quality of individual code components.                         |
+
+
+2.Unit Testing is mainly performed by developers.
+
+A unit is the smallest testable part of an application, such as a function, method, or class. Developers write and execute unit tests to verify that each unit works correctly before integrating it with other parts of the system.
+
+Example:
+If a developer creates a function to calculate employee salary, they will write unit tests to check whether the function returns the correct salary for different inputs.
+Unit testing is important because it:
+
+Finds defects early in the development process.
+Reduces debugging time and development costs.
+Improves code quality and reliability.
+Makes code easier to maintain and modify.
+Prevents regression issues when new changes are introduced.
+Increases developer confidence before code is integrated into the application.
+Supports Continuous Integration (CI/CD) by automatically validating code changes.
+
+Benefits:
+
+Faster development cycles
+Better software quality
+Reduced maintenance effort
+Easier refactoring
+
+Quality Control (QC) is the process of identifying defects in a product and ensuring that it meets the specified quality requirements before delivery to customers.
+
+In software development, QC focuses on testing and verification activities to detect bugs and issues in the application.
