@@ -1,0 +1,222 @@
+1. Agile Methodology
+
+Agile Methodology is a software development approach that focuses on delivering software in small, incremental releases while continuously incorporating customer feedback. It emphasizes collaboration, flexibility, and rapid delivery of working software.
+
+Key Principles of Agile
+
+1. Customer satisfaction through continuous delivery of valuable software.
+
+
+2. Welcome changing requirements, even late in development.
+
+
+3. Deliver working software frequently.
+
+
+4. Business stakeholders and developers work together regularly.
+
+
+5. Build projects around motivated individuals.
+
+
+6. Working software is the primary measure of progress.
+
+
+7. Maintain a sustainable development pace.
+
+
+8. Continuous attention to technical excellence and good design.
+
+
+
+Agile Lifecycle
+
+1. Requirement Gathering
+
+Collect and prioritize requirements from stakeholders.
+
+
+
+2. Sprint Planning
+
+Divide work into small iterations called sprints (usually 1–4 weeks).
+
+
+
+3. Development
+
+Developers build the features planned for the sprint.
+
+
+
+4. Testing
+
+QA team tests the developed features to identify defects.
+
+
+
+5. Review/Demo
+
+Completed work is demonstrated to stakeholders for feedback.
+
+
+
+6. Retrospective
+
+Team discusses what went well and what can be improved.
+
+
+
+7. Release
+
+The tested software is released to users.
+
+
+
+
+Agile Artifacts
+
+Product Backlog
+
+Sprint Backlog
+
+User Stories
+
+Burndown Chart
+
+Increment
+
+
+Agile Roles
+
+Product Owner – Manages requirements and priorities.
+
+Scrum Master – Facilitates Agile processes and removes blockers.
+
+Development Team – Develops and tests the software.
+
+
+Advantages of Agile
+
+Faster delivery of software.
+
+Better customer satisfaction.
+
+Flexibility to handle changing requirements.
+
+Improved product quality.
+
+Early detection of issues.
+
+
+Example
+
+Suppose a company wants to develop an online shopping application. Instead of building the entire application at once, Agile delivers features in phases:
+
+Sprint 1: User Registration & Login
+
+Sprint 2: Product Catalog
+
+Sprint 3: Shopping Cart
+
+Sprint 4: Payment Gateway
+
+
+This allows customers to review and provide feedback after each sprint.
+
+
+---
+
+2. Monitoring Activity
+
+Monitoring Activity is the process of continuously tracking and reviewing project progress, application performance, testing activities, or system operations to ensure everything is functioning as expected and project goals are being achieved.
+
+Purpose of Monitoring
+
+Track project progress.
+
+Identify issues and risks early.
+
+Ensure tasks are completed on time.
+
+Maintain software quality.
+
+Improve team productivity.
+
+
+Monitoring Activities in Software Testing
+
+1. Test Progress Monitoring
+
+Track executed, passed, failed, and blocked test cases.
+
+
+
+2. Defect Monitoring
+
+Monitor defect status such as Open, Assigned, Fixed, Retest, Closed, and Reopened.
+
+
+
+3. Schedule Monitoring
+
+Compare actual progress against planned timelines.
+
+
+
+4. Resource Monitoring
+
+Ensure team members are effectively utilized.
+
+
+
+5. Risk Monitoring
+
+Identify potential risks and take preventive actions.
+
+
+
+
+Monitoring Metrics
+
+Number of Test Cases Executed
+
+Test Pass Percentage
+
+Defect Density
+
+Defect Leakage
+
+Test Coverage
+
+Sprint Velocity
+
+
+Example
+
+A QA team has 100 test cases:
+
+Executed: 80
+
+Passed: 70
+
+Failed: 10
+
+Pending: 20
+
+
+By monitoring these metrics daily, the team can determine whether testing is on track and identify areas needing attention.
+
+Benefits of Monitoring
+
+Early identification of issues.
+
+Better project control.
+
+Improved decision-making.
+
+Increased software quality.
+
+Timely delivery of projects.
+
+
