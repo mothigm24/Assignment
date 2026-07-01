@@ -1,0 +1,58 @@
+1.Advantages of White Box Testing
+
+Here are the Advantages of White Box Testing:
+
+Thorough Testing: White box testing is thorough as the entire code and structures are tested.
+
+Code Optimization: It results in the optimization of code removing errors and helps in removing extra lines of code.
+
+Early Detection of Defects: It can start at an earlier stage as it doesn't require any interface as in the case of black box testing.
+
+Integration with SDLC: White box testing can be easily started in Software Development Life Cycle.
+
+Detection of Complex Defects: Testers can identify defects that cannot be detected through other testing techniques.
+
+Comprehensive Test Cases: Testers can create more comprehensive and effective test cases that cover all code paths.
+
+Disadvantages of White Box Testing
+
+Here are the Disadvantages of White Box Testing:
+
+Programming Knowledge and Source Code Access: Testers need to have programming knowledge and access to the source code to perform tests.
+
+Overemphasis on Internal Workings: Testers may focus too much on the internal workings of the software and may miss external issues.
+
+Bias in Testing: Testers may have a biased view of the software since they are familiar with its internal workings.
+
+Test Case Overhead: Redesigning code and rewriting code needs test cases to be written again.
+
+Dependency on Tester Expertise: Testers are required to have in-depth knowledge of the code and programming language as opposed to black-box testing.
+
+Inability to Detect Missing Functionalities: Missing functionalities cannot be detected as the code that exists is tested.
+
+
+2. Statement Coverage: In this technique, the aim is to traverse all statements at least once. Hence, each line of code is tested. In the case of a flowchart, every node must be traversed at least once. Since all lines of code are covered, it helps in pointing out faulty code.
+
+Basis Path Testing: In this technique, control flow graphs are made from code or flowchart and then Cyclomatic complexity is calculated which defines the number of independent paths so that the minimal number of test cases can be designed for each independent path. Steps:
+
+Make the corresponding control flow graph
+
+Calculate the cyclomatic complexity
+
+Find the independent paths
+
+Design test cases corresponding to each independent path
+
+V(G) = P + 1, where P is the number of predicate nodes in the flow graph
+
+V(G) = E - N + 2, where E is the number of edges and N is the total number of nodes
+
+V(G) = Number of non-overlapping regions in the graph
+
+#P1:1-2-4-7-8
+
+#P2:1-2-3-5-7-8
+
+#P3:1-2-3-6-7-8
+
+#P4:1-2-4-7-1--7-8
